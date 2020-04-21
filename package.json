@@ -17,23 +17,23 @@
 	"contributes": {
 		"commands": [
 			{
-				"command": "vscode-improved-react-snippets.appendUseState",
+				"command": "vscode-improved-react-snippets.import.useState",
 				"title": "Import useState"
 			},
 			{
-				"command": "vscode-improved-react-snippets.appendUseMemo",
+				"command": "vscode-improved-react-snippets.import.useMemo",
 				"title": "Import useMemo"
 			},
 			{
-				"command": "vscode-improved-react-snippets.appendUseEffect",
+				"command": "vscode-improved-react-snippets.import.useEffect",
 				"title": "Import useEffect"
 			},
 			{
-				"command": "vscode-improved-react-snippets.appendUseRef",
+				"command": "vscode-improved-react-snippets.import.useRef",
 				"title": "Import useRef"
 			},
 			{
-				"command": "vscode-improved-react-snippets.appendUseCallback",
+				"command": "vscode-improved-react-snippets.import.useCallback",
 				"title": "Import useCallback"
 			}
 		]

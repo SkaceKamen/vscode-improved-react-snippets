@@ -14,11 +14,11 @@ export function activate(context: vscode.ExtensionContext) {
 					),
 					buildSnippet(
 						'useMemo',
-						'const ${1:variable} = useMemo(() => ${2:memo}, [${3:dependencies}])'
+						'const ${1:variable} = useMemo(() => ${1}, [${2}])'
 					),
 					buildSnippet(
 						'useEffect',
-						'useEffect(() => {\n\t\t${1:effect}\n\t}, [${2:dependencies}])'
+						'useEffect(() => { ${2:effect} }, [${1}])'
 					),
 					buildSnippet(
 						'useRef',
@@ -26,7 +26,7 @@ export function activate(context: vscode.ExtensionContext) {
 					),
 					buildSnippet(
 						'useCallback',
-						'const ${1:callback} = useCallback(() => ${2:callback}, [${3: dependencies}])'
+						'const ${1:callback} = useCallback(() => { ${3} }, [${2}])'
 					)
 				];
 			}
