@@ -14,11 +14,11 @@ export function activate(context: vscode.ExtensionContext) {
 					),
 					buildSnippet(
 						'useMemo',
-						'const ${1:variable} = useMemo(() => ${1}, [${2}])'
+						'const ${1:variable} = useMemo(() => ${3}, [${2}])'
 					),
 					buildSnippet(
 						'useEffect',
-						'useEffect(() => { ${2:effect} }, [${1}])'
+						'useEffect(() => { ${2} }, [${1}])'
 					),
 					buildSnippet(
 						'useRef',

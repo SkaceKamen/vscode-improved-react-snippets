@@ -3,7 +3,7 @@
 	"displayName": "Improved react snippets",
 	"description": "Provides basic react snippets, which auto-imports their dependencies",
 	"publisher": "skacekachna",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"engines": {
 		"vscode": "^1.44.0"
 	},

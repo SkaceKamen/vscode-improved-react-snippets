@@ -28,6 +28,10 @@ Which will import specified hook if possible.
 
 ## Release Notes
 
+### 0.0.2
+
+Fixed `useMemo` snippet
+
 ### 0.0.1
 
 Initial release
